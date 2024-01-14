@@ -29,7 +29,8 @@
 import ReactDom from "./core/ReactDom.js";
 import React from "./core/React.js";
 
-const App = React.createElement("div", { id: "app" }, "hello ", "mini-react");
+// const App = React.createElement("div", { id: "app" }, "hello ", "mini-react");
+const App = <div id="app">hello mini-react</div>;
 // render(App, document.getElementById("root"));
 
 ReactDom.createRoot(document.getElementById("root")).render(App);
